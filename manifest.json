@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Google Inbox Enhanced",
+  "description": "A Better Email Experience",
+  "version": "0.0.1",
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "content_scripts": [{
+    "matches": ["https://inbox.google.com/*"],
+    "css": [],
+    "js": ["libs/lodash.min.js", "libs/tinysort.min.js", "libs/sortable.min.js", "dist/index.js"]
+  }],
+  "permissions": [
+    "storage"
+  ]
+}
