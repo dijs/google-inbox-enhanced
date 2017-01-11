@@ -1,18 +1,21 @@
 {
   "name": "google-inbox-enhanced",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Google Inbox Enhanced",
   "scripts": {
-    "compile": "babel src --out-dir dist --source-maps",
-    "watch": "nodemon --ignore dist --exec \"npm run compile\"",
-    "start": "npm run compile"
+    "build": "babel src --out-dir dist --source-maps",
+    "watch": "nodemon --ignore dist --exec \"npm run build\"",
+    "start": "npm run build"
   },
   "author": "Richard van der Dys",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "babel": "^5.8.34",
-    "nodemon": "^1.8.1",
-    "babel-eslint": "*"
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "nodemon": "^1.8.1"
   }
 }
