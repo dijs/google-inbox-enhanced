@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Google Inbox Enhanced",
   "description": "A Better Email Experience",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icons": {
     "16": "img/icon16.png",
     "48": "img/icon48.png",
